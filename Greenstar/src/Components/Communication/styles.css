@@ -1,0 +1,63 @@
+.css-2b097c-container .css-1uccc91-singleValue {
+  color: #1c232b;
+}
+
+.MuiBox-root {
+  position: relative;
+}
+.css-1wa3eu0-placeholder {
+  color: #1c232b !important;
+}
+.borderedHead {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #b6b6b6;
+  padding-bottom: 16px;
+}
+ul {
+  padding-left: 0;
+}
+.MuiAutocomplete-root .MuiOutlinedInput-notchedOutline {
+  border-color: #9e9e9e;
+  box-sizing: border-box;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+}
+.MuiAutocomplete-root:hover .MuiOutlinedInput-notchedOutline,
+.MuiAutocomplete-root:active .MuiOutlinedInput-notchedOutline,
+.MuiAutocomplete-root:focus .MuiOutlinedInput-notchedOutline,
+.MuiAutocomplete-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #008015 !important;
+}
+.maincontainer
+  .MuiAutocomplete-root.Mui-focused
+  .maincontainer
+  .MuiOutlinedInput-notchedOutline
+  span,
+.maincontainer .MuiInputLabel-root {
+  color: #000000;
+}
+.maincontainer .MuiInputLabel-root.Mui-focused {
+  color: #008015;
+}
+.maincontainer .MuiAutocomplete-root .MuiAutocomplete-input {
+  color: #000000;
+}
+.maincontainer .MuiAutocomplete-hasPopupIcon {
+  width: 587px;
+}
+.negtext {
+  text-transform: capitalize;
+  line-height: 25px !important;
+}
+.maincontainer .MuiFormControl-fullWidth {
+  width: 587px;
+}
+.maincontainer .MuiFormControl-fullWidth .MuiInputBase-root {
+  border-radius: 10px;
+}
+#combo-box-demo {
+  padding: 24px;
+}
+#demo-simple-select-label {
+  top: 8px;
+}

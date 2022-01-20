@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+.agentDiployed {
+  .makeStyles-borderBtm-23 {
+    display: flex;
+  }
+
+
+  form {
+    .fldWrap {
+      text-align: left;
+      margin-bottom: 0;
+      border-right: solid 1px #d9d9d9;
+      padding-right: 16px;
+      margin-right: 16px;
+      flex: 1;
+      .MuiTextField-root {
+        max-width: 100%;
+        input {
+          border-color: transparent;
+          &:hover,
+          &:active,
+          &:focus {
+            border-color: #008a17;
+          }
+        }
+      }
+    }
+    .click_area {
+      display: flex;
+      align-items: baseline;
+      span {
+        padding: 0 16px 0 0;
+        color: #003308;
+      }
+      button.deploy_btn {
+        background: #96cfa0;
+        box-shadow: 0px 2px 8px rgb(150 207 160 / 15%);
+        border-radius: 5px;
+        text-transform: initial;
+        color: black;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: "Gilroy";
+        padding: 10px 13px;
+      }
+    }
+  }
+}
+.deployed {
+  .deployedAgent {
+    height: calc(100vh - 225px);
+  }
+  .deployedDetail {
+    height: calc(100vh - 280px);
+  }
+}
+.deployedDetail .MuiSvgIcon-root
+{
+  color: #008A17;
+float: right;
+font-size: 25px;
+cursor:pointer
+}
